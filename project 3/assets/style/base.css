@@ -1,0 +1,62 @@
+@charset "UTF-8";
+@import "../style/head.css";
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/*  Base                                                 */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  outline: 0;
+  box-shadow: none;
+  box-sizing: border-box;
+  vertical-align: baseline;
+  transition: all .2s ease-in-out;
+}
+
+*, body {
+  font-family: 'Yaldevi', Arial, Helvetica, sans-serif;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 90%;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+.container3 {
+  display: flex;
+  align-items: right;
+  flex-direction: column;
+  width: 90%;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.container1 {
+  position: relative;
+  width: 90%;
+  max-width: 1080px;
+  margin-top: 300px;
+  align-items: center;
+  margin-bottom: 300px;
+}
+
+h1, h2, div, p, a, li {
+  -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+}
+
+.img{
+  justify-content: center;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/*  Header                                               */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
