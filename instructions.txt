@@ -6,7 +6,7 @@ git status
 
 git add . 
 
-git remote add origin https://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@github.com/abdulbusari/abdulbusari.github.io.git
+git remote add origin https://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@github.com/abdulbusari/abdulbusari.github.io.git
 
 git commit -m "firstcommit" 
 
