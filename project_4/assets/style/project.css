@@ -209,7 +209,7 @@ input {
 
 
 input[type="text"] {
-    background: white url(../img/search.png) no-repeat 96% center;
+    background: white url(/project_4/assets/img/search.png) no-repeat 96% center;
     background-size: 12px 12px;
 
 }
