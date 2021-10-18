@@ -1,4 +1,4 @@
-### assignment
+### Assignments
 
 -[Project 3](https://abdulbusari.github.io/intro_webdev/project_3/)
 
