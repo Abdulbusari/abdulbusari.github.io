@@ -1,0 +1,189 @@
+@import "base.css";
+
+
+nav ul li a {
+color: rgb(255, 255, 255);
+}
+.title h1 {
+color: rgb(255, 255, 255);
+
+}
+
+.mobile-nav p i {
+color: rgb(255, 255, 255);
+}
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* Main banner */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+.wrapper {
+height: 100vh;
+background: white url(../img/Landing.png) center center / cover no-repeat fixed;
+margin-bottom: 50px;
+
+}
+.flexbox{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.overlay{
+background: rgba(0,0,0,0.6);
+overflow: hidden;
+height: 100%;
+z-index: 2;
+}
+
+.herotext {
+min-width: 100%;
+text-align: center;
+align-items: center;
+}
+.herotext h1 {
+font-size: 70px;
+color: white;
+letter-spacing: 0.5px;
+}
+.herotext h3 {
+font-size: 25px;
+color: white;
+font-weight: 300;
+}
+button {
+padding: 15px 20px 15px 20px;
+background-color: #000000;
+color: rgb(255, 255, 255);
+font-size: 12px;
+border-radius: 25px;
+margin: 15px;
+font-weight: 600;
+font-weight: 400;
+}
+
+button ul a {
+display: inline-block;
+width: auto;
+height: 46px;
+line-height: 47px;
+background-color: #000000;
+border-radius: 4px;
+font-size: 13px;
+font-weight: 700;
+color: #fff;
+text-transform: uppercase;
+letter-spacing: .1px;
+text-align: center;
+text-decoration: none;
+cursor: pointer;
+transition: all 2.5 ease-in-out;
+}
+
+
+.but{
+text-align: center;
+justify-items: center;
+align-items: center;
+}
+
+
+.herofooter ul {
+list-style: none;
+text-align: center;
+}
+.herofooter ul li {
+display: inline;
+margin: 0px 20px 0px 20px
+}
+.herobanner{
+width: 100%;
+height: calc( 100vh - 60px - 70px );
+display: flex;
+align-items: center;
+
+}
+.herofooter ul p{
+color: white;
+font-size: 23px;
+}
+.textalign{
+text-align: center;
+}
+.textalign h2{
+margin: 40px 0px 20px 0px;
+font-size: 35px;
+}
+p{
+margin: 0 auto;
+font-size: 14px;
+}
+img{
+width: 90%;
+
+}
+.copyrighttext {
+margin: 30px 0px 30px 0px;
+color: black;
+}
+
+
+
+p {
+margin-top: 10px;
+line-height: 1.5;
+font-size: 17px;
+}
+
+.article-p {
+margin-top: 10px;
+background-color: rgb(255, 255, 255);
+}
+
+
+
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* Columns */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+
+
+
+.two{
+width: calc(50% - 12.5px);
+height: 500px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-left: 12px;
+}
+
+.icon i{
+font-size: 70px;
+}
+
+
+/*---------------------------------------------------------------------
+- - - - - - - - - - - - - bottom banner - - -- -- - -- - - - - - - -
+-----------------------------------------------------------------------*/
+
+.bannerfooter ul {
+list-style: none;
+text-align: center;
+}
+.bannerfooter li {
+display: inline;
+margin: 0px 20px 0px 20px;
+color: white;
+}
+
+.bannerfooter p{
+color: white;
+font-size: 23px;
+}
+
+.bannerfooter{
+height: 40px;
+}

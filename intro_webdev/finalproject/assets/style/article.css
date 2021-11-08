@@ -1,0 +1,147 @@
+@import "base.css";
+
+
+nav ul li a {
+color: rgb(255, 255, 255);
+}
+.title h1 {
+color: rgb(255, 255, 255);
+
+}
+.mobile-nav p i {
+color: rgb(255, 255, 255);
+}
+
+.wrapper {
+height: 80vh;
+background: white url(../img/book.jpg) center center / cover no-repeat fixed;
+margin-bottom: 40px;
+
+}
+.flexbox{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.overlay{
+background: rgba(0,0,0,0.6);
+overflow: hidden;
+height: 100%;
+z-index: 2;
+}
+
+.herotext {
+min-width: 100%;
+text-align: center;
+align-items: center;
+}
+.herotext h1 {
+font-size: 50px;
+color: white;
+letter-spacing: 0.5px;
+margin-bottom: 20px;
+}
+
+.herotext h2{
+font-size: 30px;
+text-align: center;
+margin-top: 20px;
+letter-spacing: 0.5px;
+}
+
+.herotext h3 {
+font-size: 20px;
+color: white;
+letter-spacing: 0.5px;
+}
+
+h2{
+font-size: 30px;
+text-align: center;
+margin-top: 20px;
+letter-spacing: 0.5px;
+}
+
+
+
+.herofooter ul {
+list-style: none;
+text-align: center;
+}
+.herofooter ul li {
+display: inline;
+margin: 0px 20px 0px 20px
+}
+.herobanner{
+width: 100%;
+height: calc( 80vh - 60px - 70px );
+display: flex;
+align-items: center;
+}
+.textalign{
+text-align: center;
+}
+
+
+
+/*------------------------------------------
+Article Styling
+-------------------------------------------*/
+
+body{
+background-color: rgb(255, 255, 255);
+}
+
+.container2 {
+position: relative;
+width: 100%;
+max-width: 700px;
+margin: 0 auto;
+margin-bottom: 30px;
+}
+
+figure{
+margin-top: 10px;
+width: 70%;
+}
+
+
+.img-center-container{
+width: 100%;
+display: flex;
+justify-content: center;
+}
+
+img {
+margin: 0 auto;
+margin-top: 12px;
+width: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+p {
+margin-top: 10px;
+line-height: 1.5;
+font-size: 17px;
+}
+
+.heading {
+text-align: center;
+font-size: min(calc(34px + (34 - 24) * ((100vw - 280px) / (1260 - 280))),34px);
+font-weight: 400;
+margin-bottom: 40px;
+}
+
+.date {
+text-align: center;
+font-size: 16px;
+color: rgb(255, 255, 255);
+margin-bottom: 5px;
+}
+
+.article-p {
+margin-top: 10px;
+background-color: rgb(255, 255, 255);
+}
