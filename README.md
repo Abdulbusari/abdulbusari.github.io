@@ -6,4 +6,4 @@
 
 -[Project 5](https://abdulbusari.github.io/intro_webdev/project_5/)
 
--[Project 5](https://abdulbusari.github.io/intro_webdev/finalproject/)
+-[Final Project](https://abdulbusari.github.io/intro_webdev/finalproject/)

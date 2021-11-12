@@ -1,22 +1,7 @@
 @import "base.css";
 
 
-/*------------------------------------------
-Article Styling
--------------------------------------------*/
 
-.container {
-position: relative;
-width: 100%;
-max-width: 1080px;
-margin: 0 auto;
-margin-bottom: 30px;
-}
-
-figure{
-margin-top: 10px;
-width: 70%;
-}
 
 
 .img-center-container{
@@ -34,11 +19,7 @@ justify-content: center;
 align-items: center;
 }
 
-p {
-margin-top: 10px;
-line-height: 1.5;
-font-size: 17px;
-}
+
 
 .heading {
 text-align: center;
@@ -54,9 +35,7 @@ color: #555;
 margin-bottom: 5px;
 }
 
-.article-p {
-margin-top: 10px;
-}
+
 
 h4{
 font-size: 20px;
