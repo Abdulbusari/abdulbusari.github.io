@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <title>Intro To Javascript | Project 1</title>
+    <link href="assets/img/favicon.png?v=2" rel="shortcut icon" type="image/x-icon">
+    <link href="assets/styles/form.css" media="all" rel="stylesheet">
+    <link href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700&display=swap"
+          rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" rel="stylesheet">
+    <script defer src="assets/script/project1.js"></script>
+</head>
+<body>
+<div id="wrapper">
+    <header>
+        <h1><a href="#">Project</a></h1>
+        <nav>
+            <ul>
+                <li><a href="contact.html">Projects</a></li>
+                <li><a href="about.html">Blog</a></li>
+                <li><a href="article.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="mobile-nav">
+            <p><i class="fas fa-bars" title="Menu"></i>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="form-container">
+                <h2 class="heads">Celsius to Fahrenheit</h2>
+                <div class="fform" onsubmit="submitText()">
+                    <h1>Celsius to Fahrenheit</h1>
+                    <input id="inputCelcius" class="converter-input" name="temp" placeholder="Celsius (ex. 40)" type="text">
+                    <input id="celciusBtn" type="button" value="Convert">
+                    <div class="output"><p id="outputFahrenheit" >Temperature in Fahrenheit:</p></div>
+                </div>
+            </div>
+            <div class="form-container">
+                <h2 class="heads">Fahrenheit to Celsius</h2>
+                <div class="fform" onsubmit="submitText()">
+                    <input id="inputFahrenheit" class="converter-input" name="temp" placeholder="Fahrenheit (ex. 70)" type="text">
+                    <input id="fahrenheitBtn" type="button" value="Convert">
+                    <div class="output"><p id="outputCelcius">Temperature in Celsius:</p></div>
+                </div>
+            </div>
+        </div>
+        <div id="button-container">
+            <i class="fas fa-adjust" id="dark"></i>
+        </div>
+    </main>
+</div>
+</body>
+</html>
