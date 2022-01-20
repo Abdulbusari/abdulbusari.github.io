@@ -1,1 +1,1 @@
--[Project 1](https://abdulbusari.github.io/project2)
+-[Project 2](https://abdulbusari.github.io/project2)
